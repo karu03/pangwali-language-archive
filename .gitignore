@@ -1,0 +1,54 @@
+# Android / Gradle
+.gradle/
+build/
+*/build/
+**/build/
+gradle-app.setting
+
+# Android Studio / IntelliJ
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/navEditor.xml
+*.iml
+*.ipr
+*.iws
+
+# Keystore / Secrets
+*.jks
+*.keystore
+*.p12
+*.key
+local.properties
+.env
+.env.*
+!.env.example
+google-services.json
+.env.example
+# Build Outputs
+*.apk
+*.aar
+*.jar
+*.bin
+
+# Native Build
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+.kotlin/
+
+# OS / Temporary
+.DS_Store
+Thumbs.db
+captures/
+*.log
+.artifacts/
+
+# Project Specific
+bun.lock
+node_modules/
