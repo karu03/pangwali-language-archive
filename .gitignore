@@ -4,19 +4,13 @@ build/
 */build/
 **/build/
 gradle-app.setting
-
-# Android Studio / IntelliJ
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/assetWizardSettings.xml
-.idea/dictionaries
-.idea/libraries
-.idea/caches
-.idea/navEditor.xml
-*.iml
-*.ipr
-*.iws
+.artifacts
+.idea
+.idea_backup
+build.gradle.kts
+dev_server.log
+dev_server_err.log
+gradle.properties
 
 # Keystore / Secrets
 *.jks
@@ -29,15 +23,11 @@ local.properties
 !.env.example
 google-services.json
 .env.example
-# Build Outputs
-*.apk
-*.aar
-*.jar
-*.bin
-
+gradlew.bat
 # Native Build
 .externalNativeBuild/
 .cxx/
+settings.gradle.kts
 
 # Kotlin
 .kotlin/
