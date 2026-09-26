@@ -22,39 +22,31 @@
       <p class="folk-title">Traditional Sach Folk Song</p>
       <p class="folk-description">An original field recording from Pangi Valley, preserving the living musical tradition of the Sach dialect and its community.</p>
     </header>
-
     <div class="folk-player" id="folkPlayer">
-      <button class="folk-play" id="folkPlay" type="button" aria-label="Play or pause">
-        <span class="play-icon">▶</span><span class="pause-icon">Ⅱ</span>
-      </button>
+      <button class="folk-play" id="folkPlay" type="button" aria-label="Play or pause"><span class="play-icon">▶</span><span class="pause-icon">Ⅱ</span></button>
       <div class="folk-player-main">
         <div class="folk-wave" id="folkWave"></div>
-        <div class="folk-progress" id="folkProgress" tabindex="0" role="slider" aria-label="Song progress">
-          <div class="folk-progress-fill" id="folkProgressFill"></div>
-        </div>
+        <div class="folk-progress" id="folkProgress" tabindex="0" role="slider" aria-label="Song progress"><div class="folk-progress-fill" id="folkProgressFill"></div></div>
         <div class="folk-time"><span id="folkCurrent">0:00</span><span id="folkDuration">0:00</span></div>
       </div>
       <label class="folk-volume" aria-label="Volume"><span>♪</span><input id="folkVolume" type="range" min="0" max="1" step="0.01" value="0.8"></label>
     </div>
-
     <div class="folk-meta">
       <div><span>⌖</span><small>LOCATION</small><strong>Sach · Pangi Valley</strong></div>
       <div><span>𑚞</span><small>DIALECT</small><strong>Pangwali · Sach</strong></div>
       <div><span>◉</span><small>RECORDING</small><strong>Field Recording</strong></div>
       <div><span>♬</span><small>TRADITION</small><strong>Folk Song</strong></div>
     </div>
-
     <div class="folk-instruments">
       <div><div class="instrument-art">〰</div><b>NARSINGHA</b><small>Brass wind instrument</small></div>
       <div><div class="instrument-art">◉</div><b>DHOL</b><small>Traditional percussion</small></div>
       <div><div class="instrument-art">────</div><b>FLUTE</b><small>Mountain wind instrument</small></div>
       <div><div class="instrument-art">◇</div><b>DAMRU</b><small>Hand drum tradition</small></div>
     </div>
-
     <p class="folk-quote">“These songs carry the memory of the mountains, the people, and a way of life.”</p>
   </div>
   <audio id="folkAudio" preload="metadata">
-    <source src="pangwali_folksong.mpeg" type="audio/mpeg">
+    <source src="./pangwali_folksong.mp3" type="audio/mpeg">
   </audio>
 </section>
 <script src="player.js"></script>
